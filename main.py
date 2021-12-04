@@ -1,6 +1,6 @@
 program = input("Which part(1, 2, 3, 4, or 5)? ")
 
-while program not in ['1', '2', '3', '4', '5']:
+while program not in ['1', '2', '3', '4', '5', 'Extra']:
   print("Enter a valid part of the assignment.")
   program = input("Which part(1, 2, 3, 4, or 5)? ")
   
@@ -18,3 +18,6 @@ elif program == '4':
   
 elif program == '5':
   import part5
+
+else:
+  import Extra
